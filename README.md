@@ -1,8 +1,10 @@
 # shopee
 
 # Syntax
-
+to search for a keyword
 python Shopee -o "outputFileName.csv" -p "2000" -s "indonesia" -k "Nike shoes"
+to search all the keywords in input folder
+python Shopee -o "outputFileName.csv" -p "2000" -s "indonesia" -k "input"
 
 Argument's details
 
@@ -15,4 +17,5 @@ Argument's details
 # default is singapore
 
 "--keyword", "-k", help="Search keyword")
+-k "input" to read the input file for multiple keywords separated by ","
 # required*
